@@ -47,27 +47,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1+ p{
-	color: green;
-}
+
 h1{
   font-family: 'PT Sans Caption', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
 	margin-top: 69px;
-	margin-bottom: 6px
+	margin-bottom: 4px
 }
 p:first-of-type{
 	font-family: 'PT Sans Caption', sans-serif;
 	color: gray;
 	font-size: 22px;
 
-	margin-bottom: 8px;
+	margin-bottom: 14px;
+	word-spacing: 0.8px;
 }
 p{
   font-family: 'PT Sans', sans-serif;
 	font-size: 23px ;
 	line-height: 30px;
+	color: red;
 }
 body {
 	width: 700px;
@@ -80,10 +80,34 @@ body {
 h2{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.p1{
+	margin-bottom: 47px;
+}
+p{
+	margin-bottom: 8px;
+	line-height: 34px;
+}
+.a1{
+		color: gray;
 }
 a{
-	color: gray;
+	color: black;
 }
+/* про аварийное состояние */
+
+h2{
+	/* font-family: 'PT Sans Caption', sans-serif; */
+
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 800;
+	font-size: 35px;
+	margin-bottom: 11px;
+}
+/* идеология */
+
 /*body{
 	margin-top: 100px;
 	margin-right: auto;
