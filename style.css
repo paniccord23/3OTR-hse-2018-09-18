@@ -2,79 +2,101 @@
 /* разбиение на 2 файла */
 
 /*
-  MY STYL`ES
+  MY STYLES
  */
+ /* вендерные префиксы для сглаживания шрифтов */
 body {
-
-  /* background-image: url(dc-online-media-mockup.png); */
-  background-size: 00px 20624px;
+  background-image: url(dc-online-media-mockup.png);
   background-position: top center;
   background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
 }
 
-h1,h2,h3,p,ul,li,blockquote{
+h1,h2,h3,p,ul,li,blockquote,div {
 	width: 700px;
   margin: 0 auto;
 }
-
-p, h2, h3, a, ul {
-	color: #000;
+/* удалить h1 and green */
+h1,p, h2, h3, a, ul {
+	/* color: #000; */
+  color: green;
 }
 
 h1 {
   font-family: 'PT Sans Caption', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
-	margin-top: 80px;
-	margin-bottom: 36px;
+	margin-top: 63px;
+	margin-bottom: 15px;
 	line-height: 46px;
 }
 /* равнозначная записать p:first-of-type */
+/* убрать колор блю */
 h1+p {
 	margin-top: 14px;
-	font-size: 22px;
+	font-size: 25px;
 	line-height: 32px;
-	color: rgba(0, 0, 0, 0.5);
+	/* color: rgba(0, 0, 0, 0.5); */
+  color: blue;
 }
-a{
+a {
 	color: inherit;
 }
-p,h2,h3,ul,li,blockquote{
+p,h2,h3,ul,li,blockquote {
 	font-family: 'PT Sans', sans-serif;
 }
-p,ul,blockquote{
+p,ul,blockquote {
 	font-size: 22px;
 	line-height: 34px;
 }
 p {
+	margin-bottom: 31px;
+}
+div {
+  width: 1020px;
+  height: 600px;
+  background-color: green;
+  margin-top: 80px;
+  margin-bottom: 79px;
+}
 
-	line-height: 30px;
-	margin-bottom: 38px;
+h2+p {
+	margin-top: 21px;
+  margin-bottom: 39px;
 }
-h2+p{
-	margin-top: 10px;
-}
+
 h2 {
 	font-size: 32px;
-	font-weight: bold;
-	margin-top: 43px;
-	line-height: 36px;
-}
+	font-weight: bolder;
+	/* line-height: 36px; */
+  letter-spacing: 3px;
 
-h3+p{
+}
+.p11 {
+  margin-top: 1px;
+}
+.arcit {
+  margin-top: 55px;
+}
+h3+p {
 	margin-top: 6px;
 }
 h3 {
 	font-weight: 800;
-	font-size: 22px;
-	margin-top: 36px;
+	font-size: 30px;
+	margin-top: 44px;
+  margin-bottom: 7px;
 	line-height: 34px;
+  /* letter-spacing: 1.2px; */
 
 }
-blockquote{
+
+blockquote {
 	font-style: italic;
-	padding-left: 17px;
-	border-left: 3px solid black;
+	/* padding-left: 10px; */
+  /* margin-right: -5px; */
+	border-left: 4px solid black;
 }
 
 ul {
@@ -87,3 +109,4 @@ li {
 	margin-bottom: 20px;
 	line-height: 35px;
 }
+/* удалить после вставки пикчи */
