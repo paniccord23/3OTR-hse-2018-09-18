@@ -66,6 +66,7 @@ h1 + p {
 }
 a, a:visited {
 	color: inherit;
+
 }
 h2 {
 	margin-bottom: 22px;
@@ -97,6 +98,7 @@ article li {
 	font-size: 22px;
 	line-height:32px;
 }
+/* обязательно вешать транзишн не на состояния типо ховер, а на сами элементы */
 nav {
   position:fixed;
   top:50px;
@@ -104,13 +106,32 @@ nav {
 
   width: 300px;
 
+  transition: opacity 600ms linear;
+
+  opacity: 0.2;
+
   font-size: 14px;
+}
+nav:hover {
+  opacity: 1;
+}
+nav a {
+  text-decoration: none;
+
+}
+nav > ul > li {
+  color: rgba(0, 0, 0, 0.8);
+}
+nav > ul > li:hover {
+  color: rgba(0, 0, 0, 1);
 }
 nav > ul > li:first-of-type {
   font-weight: bold;
 }
 nav li {
   margin-bottom: 10px;
+
+  color: rgba(0, 0, 0, 0.8);
 }
 
 article h1,h2,h3,p,{
@@ -129,4 +150,7 @@ nav ul li ul {
   padding-left: 15px;
 
   color: gray;
+}
+nav ul li ul li:hover {
+  color: rgba(0, 0, 0, 0.9);
 }
