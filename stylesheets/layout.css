@@ -11,8 +11,13 @@ body {
   -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
 
-h1,h2,h3,p,ul,li,blockquote,div,img {
+}
+article,h1,h2,h3,p,ul,li,blockquote,div,img {
 	width: 700px;
   margin: 0 auto;
 }
