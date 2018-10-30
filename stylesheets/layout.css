@@ -165,28 +165,35 @@ li {
 .dom {
   margin-top: 40px;
 }
-.l1 {
-  margin-bottom: 43px;
+
+
+nav {
+position:fixed;
+top:0;
+left:0;
 }
-.l2 {
-  margin-top: 19px;
+nav ul li ul {
+color: gray;
 }
-.l3 {
-  margin-top: 2px;
-  margin-bottom: 5px;
+article li {
+/* margin-bottom: 30px; */
+margin: 17px 0 17px 30px;
+
+list-style-type: none;
+
+font-family: "PT Sans Caption", sans-serif;
+font-size: 22px;
+line-height:32px;
 }
-.l4 {
-  margin-top: 15px;
+
+article h1,h2,h3,p,{
+width: 700px;
+margin: 0 auto;
 }
-.l5 {
-  margin-top: 50px;
-}
-.mid {
-  margin-top: 30px;
-}
-.modern {
-  margin-top: 42px;
-}
-.interest {
-  margin-top: 45px;
+
+article img {
+display: block;
+
+width: 1000px;
+margin: 0 auto;
 }
